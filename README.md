@@ -9,12 +9,19 @@ GIVEN :
 The data dir consists of data that have #pavbhaji in their description or comment.
 
 dataset.zip
+
     |
+    
  dataset
+ 
      |--- images
+     
              |--- 1 (pavbhaji images)
+             
              |--- 0 (non-pavbhaji images)
+             
      |--- pavbhaji.json (post meta data)
+     
 Where json file consist of entries for post and its metadata.
 
 TASK:
